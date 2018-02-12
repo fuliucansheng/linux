@@ -7,3 +7,9 @@
 [submodule "macos"]
 	path = macos
 	url = https://github.com/jaywcjlove/awesome-mac.git
+[submodule "ipv6-hosts"]
+	path = ipv6-hosts
+	url = https://github.com/lennylxx/ipv6-hosts.git
+[submodule "jupyter"]
+	path = jupyter
+	url = https://github.com/jupyter/jupyter.git
