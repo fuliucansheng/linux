@@ -1,0 +1,15 @@
+xgboost
+lightgbm
+catboost
+numpy
+pandas
+tqdm
+scipy
+scikit-learn
+sklearn
+gensim
+tensorflow
+pytorch
+torchvision
+keras
+jedi
