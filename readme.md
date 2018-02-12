@@ -712,6 +712,3 @@
 - [Linux Kernel Internals (PDF)](http://www.tldp.org/LDP/lki/lki.pdf)
 - [Linux 内核邮件列表归档](https://lkml.org/)
 - [Linux 内核模块编程指南（PDF）](http://www.tldp.org/LDP/lkmpg/2.6/lkmpg.pdf)
-
-**[⬆ 返回顶部](#目录)**
-
