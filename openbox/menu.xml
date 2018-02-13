@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="OpenBox 3">
+		<menu id="1" label="Development">
+			<item label="IDLE"> <action name="Execute">
+				<execute>idle</execute>
+			</action> </item>
+			<item label="Python"> <action name="Execute">
+				<execute>xterm -e python</execute>
+			</action> </item>
+			<item label="Python (v2.7)"> <action name="Execute">
+				<execute>xterm -e python2.7</execute>
+			</action> </item>
+			<item label="Qt4 Assistant"> <action name="Execute">
+				<execute>assistant-qt4</execute>
+			</action> </item>
+			<item label="Qt4 Designer"> <action name="Execute">
+				<execute>designer-qt4</execute>
+			</action> </item>
+			<item label="Qt4 Linguist"> <action name="Execute">
+				<execute>linguist-qt4</execute>
+			</action> </item>
+			<item label="Qt4 QDbusViewer"> <action name="Execute">
+				<execute>qdbusviewer-qt4</execute>
+			</action> </item>
+		</menu>
+		<menu id="2" label="Editors">
+			<item label="Nano"> <action name="Execute">
+				<execute>xterm -e nano</execute>
+			</action> </item>
+			<item label="Vi"> <action name="Execute">
+				<execute>xterm -e vi</execute>
+			</action> </item>
+			<item label="Vim"> <action name="Execute">
+				<execute>xterm -e vim</execute>
+			</action> </item>
+		</menu>
+		<menu id="18" label="Games">
+			<menu id="9" label="Adventure">
+				<item label="Sclient"> <action name="Execute">
+					<execute>sclient</execute>
+				</action> </item>
+			</menu>
+			<menu id="10" label="Arcade">
+				<item label="PacMan"> <action name="Execute">
+					<execute>pacman</execute>
+				</action> </item>
+			</menu>
+		</menu>
+		<menu id="5" label="Network">
+			<item label="Avahi SSH Server Browser"> <action name="Execute">
+				<execute>bssh</execute>
+			</action> </item>
+			<item label="Avahi VNC Server Browser"> <action name="Execute">
+				<execute>bvnc</execute>
+			</action> </item>
+			<item label="Chromium"> <action name="Execute">
+				<execute>chromium</execute>
+			</action> </item>
+			<item label="FTP"> <action name="Execute">
+				<execute>xterm -e ftp</execute>
+			</action> </item>
+			<item label="Mail"> <action name="Execute">
+				<execute>xterm -e mail</execute>
+			</action> </item>
+			<item label="Mail Reader"> <action name="Execute">
+				<execute>exo-open --launch MailReader</execute>
+			</action> </item>
+			<item label="Talk"> <action name="Execute">
+				<execute>xterm -e talk</execute>
+			</action> </item>
+			<item label="Telnet"> <action name="Execute">
+				<execute>xterm -e telnet</execute>
+			</action> </item>
+			<item label="TkVNC"> <action name="Execute">
+				<execute>xterm -e tkvnc</execute>
+			</action> </item>
+			<item label="Web Browser"> <action name="Execute">
+				<execute>exo-open --launch WebBrowser</execute>
+			</action> </item>
+		</menu>
+		<menu id="39" label="Other">
+			<item label="Fcitx Configuration"> <action name="Execute">
+				<execute>fcitx-configtool</execute>
+			</action> </item>
+		</menu>
+		<menu id="19" label="Shells">
+			<item label="GIT"> <action name="Execute">
+				<execute>xterm -e git</execute>
+			</action> </item>
+			<item label="urxvt"> <action name="Execute">
+				<execute>urxvt</execute>
+			</action> </item>
+			<item label="urxvt (client)"> <action name="Execute">
+				<execute>urxvtc</execute>
+			</action> </item>
+			<item label="urxvt (tabbed)"> <action name="Execute">
+				<execute>urxvt-tabbed</execute>
+			</action> </item>
+			<item label="UXTerm"> <action name="Execute">
+				<execute>uxterm</execute>
+			</action> </item>
+			<item label="Xterm"> <action name="Execute">
+				<execute>xterm</execute>
+			</action> </item>
+		</menu>
+		<menu id="37" label="System">
+			<menu id="36" label="Settings">
+				<item label="Openbox Configuration Manager"> <action name="Execute">
+					<execute>obconf</execute>
+				</action> </item>
+				<item label="Preferred Applications"> <action name="Execute">
+					<execute>exo-preferred-applications</execute>
+				</action> </item>
+			</menu>
+			<item label="Avahi Zeroconf Browser"> <action name="Execute">
+				<execute>avahi-discover</execute>
+			</action> </item>
+			<item label="Fcitx"> <action name="Execute">
+				<execute>fcitx</execute>
+			</action> </item>
+			<item label="Pstree"> <action name="Execute">
+				<execute>xterm -e pstree.x11</execute>
+			</action> </item>
+			<item label="pstree"> <action name="Execute">
+				<execute>xterm -e pstree</execute>
+			</action> </item>
+			<item label="pstree"> <action name="Execute">
+				<execute>xterm -e /usr/bin/pstree.x11</execute>
+			</action> </item>
+			<item label="Top"> <action name="Execute">
+				<execute>xterm -e top</execute>
+			</action> </item>
+			<item label="Xkill"> <action name="Execute">
+				<execute>xkill</execute>
+			</action> </item>
+			<item label="Xrefresh"> <action name="Execute">
+				<execute>xrefresh</execute>
+			</action> </item>
+		</menu>
+		<menu id="38" label="Utilities">
+			<item label="About Xfce"> <action name="Execute">
+				<execute>xfce4-about</execute>
+			</action> </item>
+			<item label="File Manager"> <action name="Execute">
+				<execute>exo-open --launch FileManager</execute>
+			</action> </item>
+			<item label="Info"> <action name="Execute">
+				<execute>xterm -e info</execute>
+			</action> </item>
+			<item label="Terminal Emulator"> <action name="Execute">
+				<execute>exo-open --launch TerminalEmulator</execute>
+			</action> </item>
+			<item label="Xev"> <action name="Execute">
+				<execute>xterm -e xev</execute>
+			</action> </item>
+			<item label="Xsetroot"> <action name="Execute">
+				<execute>xsetroot</execute>
+			</action> </item>
+		</menu>
+		<separator/>
+		<menu id="40" label="OpenBox">
+			<menu id="client-list-menu"/>
+			<item label="Reconfigure"> <action name="Reconfigure"/> </item>
+			<separator/>
+			<item label="Exit"> <action name="Exit"/> </item>
+		</menu>
+	</menu>
+</openbox_menu>

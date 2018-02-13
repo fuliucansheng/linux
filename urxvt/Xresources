@@ -1,0 +1,137 @@
+! Xft settings ----------------------------
+Xft.dpi:96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+!------------------------------------------
+
+URxvt.depth: 32
+URxvt.geometry: 90x30
+URxvt.transparent: false
+URxvt.fading: 0
+! URxvt.urgentOnBell: true
+! URxvt.visualBell: true
+URxvt.loginShell: true
+URxvt.saveLines: 1500
+URxvt.internalBorder: false
+URxvt.externalBorder: false
+URxvt.thickness: 0
+urxvt.borderWidth: 0
+URxvt.lineSpace: 0
+URxvt.inputMethod:fcitx
+URxvt.iconFile: /usr/share/icons/Flat-Remix/apps/scalable/terminal.svg
+
+! Fonts
+! URxvt.allow_bold: false
+! URxvt.font:xft:DejaVu Sans Mono:size=12:style=Book:antialias=true,xft:DejaVu Sans Mono:size=12:style=Book:antialias=true,xft:文泉驿正黑:size=12:style=Regular:antialias=true,xft:文泉驿正黑:size=12:style=Regular:antialias=true,xft:Anonymice Powerline:size=12:style=Regular:antialias=true
+URxvt.font:xft:Source Code Pro:size=13:style=Medium:antialias=true,xft:DejaVu Sans Mono:size=13:style=Book:antialias=true,xft:文泉驿正黑:size=13:style=Regular:antialias=true,xft:文泉驿正黑:size=13:style=Regular:antialias=true,xft:Anonymice Powerline:size=13:style=Regular:antialias=true
+! URxvt.boldfont:xft:DejaVu Sans Mono:size=12:style=Bold:antialias=true,xft:DejaVu Sans Mono:size=12:style=Bold:antialias=true,xft:文泉驿正黑:size=12:style=Bold:antialias=true,xft:文泉驿正黑:size=12:style=Bold:antialias=true
+URxvt.boldfont:xft:Source Code Pro:size=13:style=Bold:antialias=true,xft:DejaVu Sans Mono:size=13:style=Bold:antialias=true,xft:文泉驿正黑:size=13:style=Bold:antialias=true,xft:文泉驿正黑:size=13:style=Bold:antialias=true
+!URxvt*font: -misc-fixed-medium-r-normal-*-18-120-100-100-c-90-iso10646-1
+URxvt.multichar_encoding: utf-8
+URxvt.imLocale: zh_CN.UTF-8
+
+! Fix font space
+URxvt*letterSpace: 0
+
+! Scrollbar
+URxvt.scrollStyle: rxvt
+URxvt.scrollBar: false
+
+! Cursor
+URxvt.cursorBlink: true
+URxvt.cursorColor: #657b83
+!URxvt.cursorColor: #00ff00
+URxvt.cursorUnderline: false
+
+! Pointer
+URxvt.pointerBlank: true
+
+URxvt.inheritPixmap: false
+
+!!Source http://github.com/altercation/solarized
+!
+!*background: [90]#002b36
+!URxvt.background:rgba:0000/2b2b/3636/eeee
+URxvt.background:rgba:1e1e/1f1f/2929/eeee
+!*foreground: #657b83
+*foreground: #E6E6E6
+
+
+!*foreground: #006633
+*fading: 40
+*fadeColor: #002b36
+*cursorColor: #93a1a1
+*pointerColorBackground: #586e75
+*pointerColorForeground: #93a1a1
+
+!!! black dark/light
+!*color0: #073642
+!*color8: #002b36
+!*color0:     #000000
+*color0:     #1E1F29
+*color8:     #555555
+
+!!! red dark/light
+!*color1: #dc322f
+!*color9: #cb4b16
+!*color1:     #FF5555
+!*color9:     #FF6E67
+*color1:     #ff79c6
+*color9:     #ff79c6
+
+!!! green dark/light
+!*color2: #859900
+!*color10: #586e75
+*color2:     #50FA7B
+*color10:    #5AF78E
+
+!!! yellow dark/light
+!*color3: #b58900
+!*color11: #657b83
+*color3:     #F1FA8C
+*color11:    #F4F99D
+
+!!! blue dark/light
+*color4: #268bd2
+!*color12: #839496
+!*color4:     #CAA9FA
+*color12:    #CAA9FA
+
+!!! magenta dark/light
+!*color5: #d33682
+!*color13: #6c71c4
+*color5:     #ff5555
+*color13:    #ff5555
+
+!!! cyan dark/light
+!*color6: #2aa198
+!*color14: #93a1a1
+*color6:     #8BE9FD
+*color14:    #9AEDFE
+
+!!! white dark/light
+!*color7: #eee8d5
+!*color15: #fdf6e3
+*color7:     #BBBBBB
+*color15:    #FFFFFF
+
+! perl扩展
+URxvt.perl-ext-common: default,matcher,tabbedex,fullscreen,resize-font,selection-to-clipboard
+
+! matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+
+! tabbed
+URxvt.tabbed.tabbar-fg: 8
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 12
+URxvt.tabbed.tab-bg: 0
+
+! fullscreen
+urxvt*keysym.F11: perl:fullscreen:switch
+
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger: C-Up

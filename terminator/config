@@ -1,0 +1,62 @@
+[global_config]
+  always_split_with_profile = True
+  borderless = True
+  enabled_plugins = CustomCommandsMenu, InactivityWatch, BackgroundZoom, ActivityWatch, AppearanceEditor, TerminalShot, LaunchpadCodeURLHandler, Logger, MavenPluginURLHandler, LaunchpadBugURLHandler
+  handle_size = 0
+  suppress_multiple_term_dialog = True
+  tab_position = bottom
+  title_font = Myriad Pro 10
+  title_hide_sizetext = True
+  title_transmit_bg_color = "#282a36"
+  title_use_system_font = False
+  window_state = fullscreen
+[keybindings]
+  copy = <Primary><Alt>c
+  edit_tab_title = <Shift>Up
+  move_tab_left = <Primary>Left
+  move_tab_right = <Primary>Right
+  new_tab = <Shift>Down
+  next_tab = <Shift>Right
+  paste = <Primary><Alt>v
+  prev_tab = <Shift>Left
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = True
+      last_active_term = 8c2a6936-0654-456a-8d71-33b8cc6c74ca
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1366, 768
+      title = redragon@redragon-pc: ~
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = 8c2a6936-0654-456a-8d71-33b8cc6c74ca
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#0d0e13"
+    background_darkness = 0.95
+    background_image = /home/redragon/Downloads/one.jpg
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#00ff00"
+    cursor_color_fg = False
+    cursor_shape = ibeam
+    font = Source Code Pro Medium 13
+    foreground_color = "#f8f8f2"
+    icon_bell = False
+    login_shell = True
+    palette = "#1e1f29:#ff79c6:#50fa7b:#f1fa8c:#268bd2:#ff5555:#8be9fd:#bbbbbb:#555555:#ff6e67:#5af78e:#f4f99d:#caa9fa:#ff92d0:#9aedfe:#ffffff"
+    scroll_on_output = True
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    urgent_bell = True
+    use_system_font = False
