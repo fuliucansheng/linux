@@ -13,3 +13,15 @@
 [submodule "jupyter"]
 	path = jupyter
 	url = https://github.com/jupyter/jupyter.git
+[submodule "xfce/OSX-Arc-Shadow"]
+	path = xfce/OSX-Arc-Shadow
+	url = https://github.com/LinxGem33/OSX-Arc-Shadow
+[submodule "xfce/Flat-Remix"]
+	path = xfce/Flat-Remix
+	url = https://github.com/daniruiz/Flat-Remix
+[submodule "lightdm/LightDM-Webkit-MacOSX-Theme"]
+	path = lightdm/LightDM-Webkit-MacOSX-Theme
+	url = https://github.com/Wattos/LightDM-Webkit-MacOSX-Theme.git
+[submodule "fonts/powerline-fonts"]
+	path = fonts/powerline-fonts
+	url = https://github.com/powerline/fonts.git
